@@ -5,6 +5,7 @@ import Particle from "../Particle";
 
 import dino from "../../Assets/Projects/dino.png";
 import pics from "../../Assets/Projects/picsdetect.png";
+import insta from "../../Assets/Projects/instaverse.png";
 
 function Projects() {
   return (
@@ -34,12 +35,22 @@ function Projects() {
               imgPath={dino}
               isBlog={false}
               title="Dino Search App"
-              description="A simple app used to search for different dinosaurs built using Reactjs and nodejs, the app works fine locally but still working on the server side to work globally instead of locally "
+              description="A simple app used to search for different dinosaurs built using Reactjs and nodejs"
               link="https://dino-search.herokuapp.com/"
               link1="https://github.com/Yorsyboy/Dino-search-app"
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={insta}
+              isBlog={false}
+              title="Instaverse"
+              description="A full stack MERN app, a simple blog that allows users to post interesting events"
+              link="https://instarverse.netlify.app/"
+              link1="https://github.com/Yorsyboy/Instaverse"
+            />
+          </Col>
           
         </Row>
       </Container>
