@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import dino from "../../Assets/Projects/dino.png";
 import pics from "../../Assets/Projects/picsdetect.png";
 import insta from "../../Assets/Projects/instaverse.png";
+import dash from "../../Assets/Projects/dash.png";
 
 function Projects() {
   return (
@@ -49,6 +50,17 @@ function Projects() {
               description="A full stack MERN app, a simple blog that allows users to post interesting events"
               link="https://instarverse.netlify.app/"
               link1="https://github.com/Yorsyboy/Instaverse"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dash}
+              isBlog={false}
+              title="Dashboard"
+              description="A simple dashboard"
+              link="https://dashboard0.netlify.app/"
+              link1="https://github.com/Yorsyboy/Dashboard"
             />
           </Col>
           
