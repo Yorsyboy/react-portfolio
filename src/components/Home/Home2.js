@@ -20,7 +20,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
-              something, I think…. 🤷‍♂️
+              something, I think… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>
@@ -29,7 +29,9 @@ function Home2() {
               <br />
               <br />
               I am passionate about learning new technologies as well as building things.
-              
+              <br />
+              <br />
+              I am a self-taught developer and I am always looking for new opportunities.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
