@@ -28,7 +28,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              I am passionate about learning new technologies as well as building things.
+              I am passionate about learning new technologies as well as building things and In love with pair-programming.
               <br />
               <br />
               I am a self-taught developer and I am always looking for new opportunities.
