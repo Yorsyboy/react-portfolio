@@ -8,7 +8,7 @@ import {
   DiHtml5,
   DiCss3,
   DiGit,
-  DiJava,
+  DiRuby,
 } from "react-icons/di";
 
 function Techstack() {
@@ -21,7 +21,7 @@ function Techstack() {
         <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiRuby />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />

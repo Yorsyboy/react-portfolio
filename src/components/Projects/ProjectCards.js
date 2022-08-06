@@ -16,6 +16,7 @@ function ProjectCards(props) {
           <BiLinkExternal /> &nbsp;
           {"View Project"} 
         </Button>&nbsp;
+        <br /> <br /> 
         <Button variant="primary" href={props.link1} target="_blank">
           <BiLinkExternal /> &nbsp;
           {"View Source code"} 

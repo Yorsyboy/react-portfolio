@@ -14,7 +14,13 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Taiwo Toyosi </span>
             from <span className="purple"> Lagos, Nigeria.</span>
-            <br />I am a passionate software developer who has a flair for UI design and aspiring to be a full stack developer.
+            <br />
+            <br />
+            I am a passionate software developer who has a flair for UI design and 
+            I'm a full-stack development student at Microverse, a remote software development 
+            company that allows developers from all over the world to pair-program and build projects 
+            together. I have spent the next last few months completely immersed in remote development, 
+            building everything from landing pages to Rails APIs
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
