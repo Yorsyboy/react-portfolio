@@ -97,7 +97,7 @@ function Projects() {
               title="Maths Magician"
               description="A Simple SPA webapp that display different breeds of cat and informations about them."
               link="https://catty-catty.netlify.app/"
-              link1="hhttps://github.com/Yorsyboy/react-capstone"
+              link1="https://github.com/Yorsyboy/react-capstone"
             />
           </Col>
 
