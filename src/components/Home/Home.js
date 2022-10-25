@@ -31,9 +31,12 @@ function Home() {
             <p className="home-about-body">
               A Software Developer passionate about building interactive interfaces,
               I can help you build a product, feature or website. My language stack includes Ruby,
-              Ruby on Rails, JavaScript and React.I am passionate about learning new technologies
+              Ruby on Rails, JavaScript and React. 
+              <br />
+              I am passionate about learning new technologies
               as well as building things.I fell in love with programming ever since I have been building
               projects with the stacks mentioned above.
+              <br />
               I am a self-taught developer and I am currently looking for new opportunities to grow within a 
               technical team.
             </p>
