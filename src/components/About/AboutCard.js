@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import { Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/TAIWO-TOYOSI-CV.pdf";
+import pdf from "../../Assets/MyResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function AboutCard() {
