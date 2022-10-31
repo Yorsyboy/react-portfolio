@@ -50,7 +50,7 @@ function Projects() {
               imgPath={insta}
               isBlog={false}
               title="Instaverse"
-              description="This is a full stack MERN app that I built, that allows users to post interesting events in a simple blog"
+              description="This is a full stack MERN app that I built that allows users to post interesting events in a simple blog"
               link="https://instarverse.netlify.app/"
               link1="https://github.com/Yorsyboy/Instaverse"
             />
@@ -72,7 +72,7 @@ function Projects() {
               imgPath={space}
               isBlog={false}
               title="Space Traveler's Hub"
-              description="Space Travel is an app built React.js, allows users to book rockets and join selected missions."
+              description="Space Travel is an app I built with React.js that allows users to book rockets and join selected missions."
               link="https://space-travel00.netlify.app/"
               link1="https://github.com/Yorsyboy/space-travelers-hub-capstoneproject"
             />

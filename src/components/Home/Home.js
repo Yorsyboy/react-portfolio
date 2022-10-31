@@ -24,23 +24,15 @@ function Home() {
               I'm
               <strong className="main-name"> Taiwo Toyosi</strong>
             </h1>
-
-            {/* <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1> */}
             <p className="home-about-body">
-              A Software Developer passionate about building interactive interfaces,
-              I can help you build a product, feature or website. My language stack includes Ruby,
+              A Software Developer passionate about building web applications with Ruby,
               Ruby on Rails, JavaScript and React. 
-              <br />
-              I am passionate about learning new technologies
-              as well as building things.I fell in love with programming ever since I have been building
+              <br />I fell in love with programming ever since I have been building
               projects with the stacks mentioned above.
-              <br />
-              I am a self-taught developer and I am currently looking for new opportunities to grow within a 
+              <br />I am currently looking for new opportunities within a 
               technical team.
             </p>
-            <button className="btn btn-primary" onClick={() => navigate.push('/project')}>See Projects</button>
+            <button className="btn btn-primary" onClick={() => navigate.push('/project')}>See My Projects</button>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
