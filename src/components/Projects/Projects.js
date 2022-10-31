@@ -17,7 +17,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -28,7 +28,7 @@ function Projects() {
               imgPath={pics}
               isBlog={false}
               title="Face Detect"
-              description="A simple face recongition App built with Reactjs, nodejs and clarifai Api key, it's also count the number of times a user detect a pics "
+              description="A simple face recongition app built with React.js, Node.js and Clarifai API key, it also counts the number of times a user detects a picture "
               link="https://pics-detect.herokuapp.com/"
               link1="https://github.com/Yorsyboy/smart-brain"
             />
@@ -39,7 +39,7 @@ function Projects() {
               imgPath={Tvshow}
               isBlog={false}
               title="TvShows"
-              description="**TvShows** is a web application based on [TVmaze external API] that fetches data about TV series and movies. It enables the user to **Like** and **Comment** on a particular **Movie** of their choice."
+              description="TvShows is a web application based on TVmaze external API, that fetches data about TV series and movies. It enables the user to **Like** and **Comment** on a particular **Movie** of their choice."
               link="https://yorsyboy.github.io/Javascript-capstone/"
               link1="https://github.com/Yorsyboy/Javascript-capstone"
             />
@@ -50,7 +50,7 @@ function Projects() {
               imgPath={insta}
               isBlog={false}
               title="Instaverse"
-              description="A full stack MERN app, a simple blog that allows users to post interesting events"
+              description="This is a full stack MERN app that I built that allows users to post interesting events in a simple blog"
               link="https://instarverse.netlify.app/"
               link1="https://github.com/Yorsyboy/Instaverse"
             />
@@ -61,7 +61,7 @@ function Projects() {
               imgPath={dash}
               isBlog={false}
               title="Dashboard"
-              description="A simple dashboard"
+              description="This is a simple dashboard that I built with React.js, It has different sections that display different data"
               link="https://dashboard0.netlify.app/"
               link1="https://github.com/Yorsyboy/Dashboard"
             />
@@ -72,7 +72,7 @@ function Projects() {
               imgPath={space}
               isBlog={false}
               title="Space Traveler's Hub"
-              description="Space Travel allows users to book rockets and join selected missions."
+              description="Space Travel is an app I built with React.js that allows users to book rockets and join selected missions."
               link="https://space-travel00.netlify.app/"
               link1="https://github.com/Yorsyboy/space-travelers-hub-capstoneproject"
             />
@@ -83,8 +83,8 @@ function Projects() {
               imgPath={math}
               isBlog={false}
               title="Maths Magician"
-              description="A website for all the fans of mathematics, Math Magicians is a Single Page Application 
-              (SPA) created in React that allows users to make simple calculations and Read some famous Quotes."
+              description="This is a website for all the fans of mathematics, Math Magicians is a Single Page Application 
+              (SPA) created in React that allows users to make simple calculations and read some famous quotes."
               link="https://maths-mag.netlify.app/"
               link1="https://github.com/Yorsyboy/math-Magicians"
             />
@@ -94,8 +94,8 @@ function Projects() {
             <ProjectCard
               imgPath={cat}
               isBlog={false}
-              title="Maths Magician"
-              description="A Simple SPA webapp that display different breeds of cat and informations about them."
+              title="Catty"
+              description="Catty is a simple SPA webapp built with React, that display different breeds of cats and informations about them."
               link="https://catty-catty.netlify.app/"
               link1="https://github.com/Yorsyboy/react-capstone"
             />

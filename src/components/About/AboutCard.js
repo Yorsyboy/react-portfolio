@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import { Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/TAIWO-TOYOSI-CV.pdf";
+import pdf from "../../Assets/MyResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function AboutCard() {
@@ -16,10 +16,10 @@ function AboutCard() {
             from <span className="purple"> Lagos, Nigeria.</span>
             <br />
             <br />
-            I am a passionate software developer who has a flair for UI design and 
-            I'm a full-stack development student at Microverse, a remote software development 
-            company that allows developers from all over the world to pair-program and build projects 
-            together. I have spent the next last few months completely immersed in remote development, 
+            I am a passionate software developer who has a flair for UI design,
+            I recently graduated from Microverse, a remote software development 
+            company, where I learnt to pair-program and build projects. I have a
+            a passion for user interactive designs and I have spent the last months completely immersed in remote development, 
             building everything from landing pages to Rails APIs
             <br />
             <br />
@@ -38,9 +38,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            Code is like humor. When you have to explain it, it’s bad"{" "}
+          Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live{" "}
           </p>
-          <footer className="blockquote-footer">Taiwo Toyosi</footer>&nbsp;
+          <footer className="blockquote-footer"> Martin Golding</footer>&nbsp;
 
           <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">

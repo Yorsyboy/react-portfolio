@@ -14,25 +14,24 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiApachenetbeanside /> 
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode /> 
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSublimetext /> 
+        <p>VS Code</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman /> 
+        Postman
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku /> 
+        Heroku
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiXampp /> 
+        Xampp
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify /> 
+        Netlify
       </Col>
     </Row>
   );
