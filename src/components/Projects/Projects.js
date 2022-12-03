@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import Tvshow from "../../Assets/Projects/Tvshow.png";
 import pics from "../../Assets/Projects/picsdetect.png";
-import insta from "../../Assets/Projects/instaverse.png";
+import realtor from "../../Assets/Projects/realtor.png";
 import dash from "../../Assets/Projects/dash.png";
 import space from "../../Assets/Projects/space.png";
 import math from "../../Assets/Projects/math.png";
@@ -47,7 +47,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={insta}
+              imgPath={realtor}
               isBlog={false}
               title="Realtor Clone"
               description="Realtor clone is a webapp created with ReactJs and firestore that allows a user to sell and rent apartments/houses. It's also has a geolocation feature that allows the user to see the location of the apartment/house on a map."
