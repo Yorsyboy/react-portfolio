@@ -49,10 +49,10 @@ function Projects() {
             <ProjectCard
               imgPath={insta}
               isBlog={false}
-              title="Instaverse"
-              description="This is a full stack MERN app that I built that allows users to post interesting events in a simple blog"
-              link="https://instarverse.netlify.app/"
-              link1="https://github.com/Yorsyboy/Instaverse"
+              title="Realtor Clone"
+              description="Realtor clone is a webapp created with ReactJs and firestore that allows a user to sell and rent apartments/houses. It's also has a geolocation feature that allows the user to see the location of the apartment/house on a map."
+              link="https://realtor-clone-henna.vercel.app/"
+              link1="https://github.com/Yorsyboy/realtor-clone"
             />
           </Col>
 
