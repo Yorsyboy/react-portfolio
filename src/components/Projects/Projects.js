@@ -23,16 +23,6 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pics}
-              isBlog={false}
-              title="Face Detect"
-              description="A simple face recongition app built with React.js, Node.js and Clarifai API key, it also counts the number of times a user detects a picture "
-              link="https://pics-detect.herokuapp.com/"
-              link1="https://github.com/Yorsyboy/smart-brain"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
