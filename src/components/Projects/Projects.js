@@ -4,12 +4,12 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import Tvshow from "../../Assets/Projects/Tvshow.png";
-import pics from "../../Assets/Projects/picsdetect.png";
 import realtor from "../../Assets/Projects/realtor.png";
 import dash from "../../Assets/Projects/dash.png";
 import space from "../../Assets/Projects/space.png";
 import math from "../../Assets/Projects/math.png";
 import cat from "../../Assets/Projects/cat.png";
+import google from "../../Assets/Projects/google.png";
 
 function Projects() {
   return (
@@ -43,6 +43,17 @@ function Projects() {
               description="Realtor clone is a webapp created with ReactJs and firestore that allows a user to sell and rent apartments/houses. It's also has a geolocation feature that allows the user to see the location of the apartment/house on a map."
               link="https://realtor-clone-henna.vercel.app/"
               link1="https://github.com/Yorsyboy/realtor-clone"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={google}
+              isBlog={false}
+              title="Google-clone"
+              description="Google-clone is a web search engine that mimics the features of Google. It is designed to provide users with a similar experience to the popular search engine and allows them to access information from websites and images."
+              link="https://google-clone-yorsyboy.vercel.app/"
+              link1="https://github.com/Yorsyboy/google-clone"
             />
           </Col>
 
